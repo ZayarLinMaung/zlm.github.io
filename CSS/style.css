@@ -48,24 +48,28 @@ body {
 }
 
 /* about */
-#aboutpicone {
-  float: left;
-  width: 300px;
-  max-width: 300px;
-  margin: 0;
-}
-#aboutpictwo {
-  float: left;
-  width: 300px;
-  height: 305px;
-  max-width: 300px;
-  margin: 0;
-}
-#abouttext {
-  width: 50%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-table {
+#body {
   width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#aboutpic {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+  float: left; /* Added to float the images to the left */
+  border-radius: 60px;
+}
+
+#textColumn1,
+#textColumn2 {
+  width: 48%; /* Adjust the width as needed */
+  margin-right: 4%; /* Adjust the margin as needed */
+  float: left;
+}
+
+#textColumn2 {
+  margin-right: 0;
 }

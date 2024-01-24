@@ -31,10 +31,6 @@ body {
   text-underline-offset: 10px;
   border-radius: 30px;
 }
-#nav ul {
-  display: flex;
-  flex-direction: row-reverse;
-}
 #header1 {
   float: left;
   padding-right: 850px;

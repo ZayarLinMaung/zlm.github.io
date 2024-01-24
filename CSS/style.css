@@ -64,11 +64,12 @@ hr {
   border-radius: 50%;
   float: left;
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 140px;
 }
 
 #textcolumn1,
 #textcolumn2 {
-  flex: 1;
+  width: 600 px;
+
   margin-right: 100px;
 }

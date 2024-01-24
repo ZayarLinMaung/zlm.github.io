@@ -49,27 +49,26 @@ hr {
 
 /* about */
 #body {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+#imagecolumn {
+  flex: 0 0 auto;
+  margin-right: 20px;
 }
 
 #aboutpic {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
-  margin-bottom: 20px;
-  display: block;
-  float: left; /* Added to float the images to the left */
-  border-radius: 60px;
-}
-
-#textColumn1,
-#textColumn2 {
-  width: 48%; /* Adjust the width as needed */
-  margin-right: 4%; /* Adjust the margin as needed */
+  border-radius: 50%;
   float: left;
+  margin-top: 100px;
+  margin-left: 100px;
 }
 
-#textColumn2 {
-  margin-right: 0;
+#textcolumn1,
+#textcolumn2 {
+  flex: 1;
+  margin-right: 100px;
 }

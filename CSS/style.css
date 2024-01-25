@@ -34,7 +34,7 @@ body {
 
 #header1 {
   float: left;
-  padding-right: 850px;
+  padding-right: 30%;
   margin-top: 13px;
   font-size: 25px;
   font-weight: bolder;
@@ -59,7 +59,7 @@ hr {
 }
 
 #aboutpic {
-  max-width: 70%;
+  max-width: 50%;
   height: auto;
   border-radius: 50%;
   float: left;

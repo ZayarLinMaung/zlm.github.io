@@ -50,12 +50,18 @@ hr {
 }
 @media screen and (max-width: 600px) {
   #nav li {
-    float: none; /* Clear the float for responsiveness */
+    float: none;
     width: 100%;
   }
 
   #nav li a {
-    padding: 14px 8px; /* Adjust padding for smaller screens */
+    padding: 14px 8px;
+  }
+
+  #header1 {
+    float: none;
+    text-align: center;
+    padding-right: 0;
   }
 }
 /* about */

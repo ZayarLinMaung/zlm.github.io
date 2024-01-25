@@ -65,7 +65,7 @@ hr {
   height: auto;
   border-radius: 50%;
   float: left;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -74,4 +74,19 @@ hr {
   max-width: 50%;
   margin-top: 5%;
   margin-left: 50%;
+  margin-bottom: 5%;
+}
+#footer {
+  margin-top: 20px;
+}
+
+#footer p {
+  width: 30%;
+  float: left;
+  margin-right: 20px;
+}
+@media screen and (max-width: 600px) {
+  #footer p {
+    width: 100%;
+  }
 }
